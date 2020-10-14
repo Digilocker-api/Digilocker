@@ -1,12 +1,19 @@
 .card{
     margin-top: 6%;
     width: 400px;
+    border-bottom: 5px solid purple;
 }
 
 #text-bottom {
     margin-top: 20px;
 }
 
-.input {
-    width: 400px;
+input {
+    width: 100%;
+    outline: none !important;
+}
+
+.form-wrap {
+    margin: 3px;
+    padding: 10px 1px;
 }

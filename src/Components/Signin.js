@@ -8,13 +8,13 @@ const Signin = () => {
         <div className="d-flex justify-content-center">
             <div className="card">
             <div className="card-body">
-                <h5 className="card-title">Sign in to your account</h5>
-                <div className="card-text">
+                <h5 className="card-title text-center">Sign in to your account</h5>
+                <div className="form-wrap">
                 <form>
                     <label htmlFor='text'>Username</label>
-                    <input type="text" value="username"/>
+                    <input type="text" />
                     <label htmlFor='password'>Password</label>
-                    <input type="password" value="password"/>
+                    <input type="password"/>
                 </form>
                 </div>
                 <div className="text-center">

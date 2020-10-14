@@ -1,5 +1,15 @@
-.nav-link .navbar-default{
-    color: purple;
-    border-bottom: 3px solid purple;
-    background-color: purple;
+.navbar .nav-item :active{
+    border-bottom: solid 3px purple;
+}
+
+.navbar .nav-item :hover{
+    border-bottom: solid 3px purple;
+}
+
+.navbar .nav-item .active{
+    border-bottom: solid 3px purple;
+}
+
+.navbar .navbar-toggler .btn-sm {
+    outline: none !important;
 }
