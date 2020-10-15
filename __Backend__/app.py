@@ -6,7 +6,7 @@ import bcrypt
 ********************************************************
 Connecting to MongoDB - Database
 Database = UserDB
-Collection = UserDetaisl
+Collection = UserDetails
 ********************************************************
 '''
 
