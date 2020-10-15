@@ -12,9 +12,9 @@ const Signin = () => {
                 <div className="form-wrap">
                 <form>
                     <label htmlFor='text'>Username</label>
-                    <input type="text" />
+                    <input type="text" className="form-control"/>
                     <label htmlFor='password'>Password</label>
-                    <input type="password"/>
+                    <input type="password" className="form-control"/>
                 </form>
                 </div>
                 <div className="text-center">

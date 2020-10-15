@@ -113,7 +113,7 @@ const Signup = () => {
                 </div>
                 <div className="text-center">
                 <button className="btn btn-primary" type="submit" id="submit" value="submit">
-                    Button
+                    Signup
                 </button>
                 {/*<Link to="/signup" className="btn btn-primary" type="submit">Sign up</Link>*/}
                 </div>
