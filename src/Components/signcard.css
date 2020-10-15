@@ -1,6 +1,6 @@
 .card{
-    margin-top: 6%;
-    width: 400px;
+    margin-top: 2%;
+    width: 500px;
     border-bottom: 5px solid purple;
 }
 
@@ -16,4 +16,5 @@ input {
 .form-wrap {
     margin: 3px;
     padding: 10px 1px;
+    width: auto;
 }
