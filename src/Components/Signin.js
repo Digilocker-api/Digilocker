@@ -13,7 +13,7 @@ const Signin = () => {
                 <form>
                     <label htmlFor='text'>Username</label>
                     <input type="text" className="form-control"/>
-                    <label htmlFor='password'>Password</label>
+                    <label htmlFor='password'>PIN</label>
                     <input type="password" className="form-control"/>
                 </form>
                 </div>
