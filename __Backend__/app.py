@@ -28,6 +28,7 @@ app=Flask(__name__)
 Username,Password
 '''
 @app.route("/")
+
 @app.route("/signin",methods=["POST","GET"])
 def signin():
 
@@ -168,6 +169,10 @@ def signup():
             return resp
 
 
+records = UserDetails.find()
+
+for record in records:
+    print(record)
 
 
 if(__name__=="__main__"):
