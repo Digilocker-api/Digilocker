@@ -20,9 +20,9 @@ function Main () {
           <div>
             <Navbar/>
             <Switch>
-              <Route path='/signin' component={SigninPage} />
+              <Route path='/' component={SigninPage} />
               <Route path='/signup' component={SignupPage} />
-              <Redirect to='/signin' />
+              <Redirect to='/signup' />
             </Switch>
           </div>
         );
