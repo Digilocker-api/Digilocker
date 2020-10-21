@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18d05ae4632027906f9e1d68548b25ce",
+    "revision": "584f90a3a2edd69a69cd517632386dbc",
     "url": "/Digilocker/index.html"
   },
   {
-    "revision": "351e22e766ad7e00131e",
+    "revision": "c0952b7ac1aace579f80",
     "url": "/Digilocker/static/css/main.06c625ae.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Digilocker/static/js/2.39755c7e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "351e22e766ad7e00131e",
-    "url": "/Digilocker/static/js/main.63d081ec.chunk.js"
+    "revision": "c0952b7ac1aace579f80",
+    "url": "/Digilocker/static/js/main.5dfa043b.chunk.js"
   },
   {
     "revision": "e157ea6fcf1d737c5ecc",
