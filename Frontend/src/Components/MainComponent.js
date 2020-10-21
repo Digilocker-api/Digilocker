@@ -1,34 +1,32 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
+import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import Signin from './Signin';
 import Signup from './Signup';
 
-class Main extends Component {
+function Main () {
 
-    render() {
 
         const SigninPage = () => {
           return <Signin/>;
-        };
+        }
 
         const SignupPage = () => {
           return <Signup/>;
-        };
+        }
     
         
         return (
           <div>
             <Navbar/>
             <Switch>
-              <Route path='/signin' component={SigninPage} />
+              <Route path='/' component={SigninPage} />
               <Route path='/signup' component={SignupPage} />
-              <Redirect to='/signin' />
+              <Redirect to='/signup' />
             </Switch>
           </div>
         );
-      }
+      
 
 
 }
