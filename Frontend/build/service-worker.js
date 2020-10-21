@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Digilocker/precache-manifest.5310cebdb5fd0c78dbdd7e1f30a5ae94.js"
+  "/Digilocker/precache-manifest.009935f552c9d76858b59e991c451d88.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,4 +1,4 @@
-import React,{ Component, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'
 
@@ -34,11 +34,6 @@ function Navbar() {
             </nav>               
             </>
         );
-
-    
-
-    
-
 }
 
 export default Navbar;
